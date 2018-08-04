@@ -21,7 +21,7 @@ function currentLine(line) {
   for(var i = 0; i < line.length; i++) {
     if (i === line.length - 1) {
     string += `${i + 1}. ${line[i]}`
-
+    break
     }
     string += `${i + 1}. ${line[i]}, `
 
