@@ -1,3 +1,3 @@
-function takeANumber(array, person){
-  
+function takeANumber(peopleArray, name){
+
 }
