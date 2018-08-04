@@ -4,5 +4,8 @@ function takeANumber(peopleArray, name){
 }
 
 function nowServing(line) {
-  
+  var person = line.unshift()
+
+
+  return 
 }
