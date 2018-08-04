@@ -24,6 +24,7 @@ function currentLine(line) {
 
     }
     string += `${i + 1}. ${line[i]}, `
-    
+
   }
+  return string
 }
