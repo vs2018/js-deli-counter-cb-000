@@ -10,5 +10,5 @@ function nowServing(line) {
   var person = line.unshift()
 
 
-  return person
+  return `Currently serving ${person}`
 }
