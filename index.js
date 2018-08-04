@@ -4,8 +4,9 @@ function takeANumber(peopleArray, name){
 }
 
 function nowServing(line) {
+  return "There is nobody waiting to be served!" if line.length === 0
   var person = line.unshift()
 
 
-  return 
+  return person
 }
