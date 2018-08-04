@@ -5,5 +5,5 @@ function takeANumber(peopleArray, name){
       number = i + 1
     }
   }
-  return `Welcome, Ada. You are number ${number} in line.`
+  return `Welcome, ${name}. You are number ${number} in line.`
 }
